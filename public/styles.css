@@ -1,0 +1,200 @@
+.container {
+    background-color: #333;
+
+    height: 100vh;
+    width: 100%
+}
+
+body {
+    width: 100%;
+}
+
+#clock,
+#date {
+    color: white;
+}
+
+.side-nav {
+   background: #7d7e7d;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7d7e7d), color-stop(100%, #0e0e0e));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%);
+    /* IE10+ */
+    background: linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e', GradientType=0);
+}
+
+h1 {
+    font-family: 'Courgette', cursive;
+    color: white;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+}
+.sideHead{
+  font-family: 'Courgette', cursive;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+.neon-effect {
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0 0 10px #ffffff,
+    0 0 20px #ffffff,
+    0 0 30px #ffffff,
+    0 0 40px #228DFF,
+    0 0 70px #228DFF,
+    0 0 80px #228DFF,
+    0 0 100px #228DFF,
+    0 0 150px #228DFF;
+}
+
+#date {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+#clock {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 40px;
+    text-rendering: optimizeLegibility;
+}
+
+.deepshadow {
+    color: #e0dfdc;
+    background-color: #333;
+    letter-spacing: .1em;
+    text-shadow: 0 -1px 0 #fff,
+    0 1px 0 #2e2e2e,
+    0 2px 0 #2c2c2c,
+    0 3px 0 #2a2a2a,
+    0 4px 0 #282828,
+    0 5px 0 #262626,
+    0 6px 0 #242424,
+    0 7px 0 #222,
+    0 8px 0 #202020,
+    0 9px 0 #1e1e1e,
+    0 10px 0 #1c1c1c,
+    0 11px 0 #1a1a1a,
+    0 12px 0 #181818,
+    0 13px 0 #161616,
+    0 14px 0 #141414,
+    0 15px 0 #121212,
+    0 22px 30px rgba(0, 0, 0, 0.9);
+}
+
+.switch {
+    margin-top: 15px;
+    margin-left: -40px;
+}
+
+nav {
+    background-color: #333 !important;
+    position: absolute;
+    bottom: 0px !important;
+    width: 100%;
+}
+
+#header {
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+
+
+h6 {
+    font-size: 30px;
+    margin-top: 10px;
+    color: black;
+    font-family: 'Heebo', sans-serif;
+}
+
+p {
+    font-family: 'Heebo', sans-serif;
+    color: black;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.remove {
+    color: red;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+.edit {
+    color: green;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+#edits {
+    display: inline !important;
+}
+
+.black {
+    margin-top: -30px;
+    height: 70px;
+    background: #7d7e7d;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7d7e7d), color-stop(100%, #0e0e0e));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%);
+    /* IE10+ */
+    background: linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e', GradientType=0);
+    /* IE6-9 */
+}
+input{
+  border-bottom: none !important;
+  font-size: 100px;
+  margin-left: -20px !important;
+  color:white !important;
+  box-shadow: none !important;
+}
+.input-field .prefix {
+color:white !important;
+}
+.input-field .prefix.active {
+color:white !important;
+}
+.guy{
+  color: white;
+}
+label{
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.input{
+box-shadow: none;
+
+}
+#alarmDiv{
+  position: absolute;
+  width: 103%;
+}
+#addAlarm{
+  background-color: transparent;
+}

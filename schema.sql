@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS alarmdb;
+CREATE DATABASE alarmdb;
+USE alarmdb;
